@@ -1,0 +1,21 @@
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.offcanvas.show .navbar-nav .nav-link {
+    color: black !important;
+    text-transform: uppercase;
+}
+
+.home, .project {
+    background-color: #e2edff;
+    padding-top: 7rem;
+}
+
+.about, .contact {
+    padding-top: 7rem;
+}
+
+.about .row {
+    text-align: justify;
+}
