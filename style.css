@@ -730,6 +730,16 @@ img {
     .nav {
         padding: 1rem;
     }
+
+    .home-container,
+    .projects-container,
+    .services-container,
+    .experience-container,
+    .contact-container {
+        grid-template-columns: 360px;
+        justify-content: center;
+        margin: 0;
+    }
 }
 
 /* Large */
