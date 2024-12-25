@@ -5,7 +5,7 @@ const contactMessage = document.getElementById("contact-message");
 const sendEmail = (e) => {
     e.preventDefault();
 
-    //                serviceID       -  templateID       -  #form         -  publicKey
+    //serviceID - templateID - #form - publicKey
     emailjs
         .sendForm(
             "service_fb1spgf",
